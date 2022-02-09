@@ -11,7 +11,7 @@ This assignment uses the 'join' method extensively, which is the topic of [Secti
 
 Your assignment is as follows:
 
-1. Reconstruct the 'trips' and 'stations' objects from Section 8.5 by downloading the .csv files at these two URLs (one way to do this is to replace the `path_data` object by `'http://personal.psu.edu/drh20/200DS/assets/data/'`: 
+1. Reconstruct the 'trips' and 'stations' objects from Section 8.5 by downloading the .csv files at these two URLs (one way to do this is to replace the `path_data` object by `'http://personal.psu.edu/drh20/200DS/assets/data/'`): 
 ```
 http://personal.psu.edu/drh20/200DS/assets/data/trip.csv
 http://personal.psu.edu/drh20/200DS/assets/data/station.csv
@@ -87,7 +87,7 @@ SFMap2
 3. Create a new version of the table called 'starts_map_data' that is just like the one in Section 8.5 except that the colors should match the station colors from the 'colored' table created earlier in that section.  That is, Mountain View stations should be blue, Palo Alto stations red, and so on. 
 **Hint**:  A starting point is to use the `join` method on the `starts` and `colored` tables already created, as in
 ```
-starts_map_data = starts.join("Start Station", colored, "name")
+starts.join("Start Station", colored, "labels")
 ```
 
 4. In your output, turn in the code that creates your new version of the 'starts_map_data' table as well as printing out the entire object.  (Remember, you can use the 'show' method with no argument to print the whole object.)
