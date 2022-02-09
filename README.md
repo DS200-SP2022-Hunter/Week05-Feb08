@@ -90,7 +90,7 @@ SFMap2
 starts.join("Start Station", colored, "labels")
 ```
 
-4. In your output, turn in the code that creates your new version of the 'starts_map_data' table as well as printing out the entire object.  (Remember, you can use the 'show' method with no argument to print the whole object.)
+4. In your output, turn in the code that creates your new version of the 'starts_map_data' table as well as printing out the entire object.  (Remember, you can use the `show` method with no argument to print the whole object.)
 
 5. Finally, reproduce the final map in Section 8.5 using the different colors for each city's stations.  Feel free to play around with the look of the circles and map.
 
