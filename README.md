@@ -1,4 +1,4 @@
-# Lab Assignment 05, Due on [Canvas](https://psu.instructure.com/courses/2174978), Feb. 16 at 11:59pm
+# Lab Assignment 05, Due on [Canvas](https://psu.instructure.com/courses/2174978/assignments/13830500), Feb. 16 at 11:59pm
 ## Creating interactive maps using folium
 
 The main objective of today's lab is to reproduce the output and maps of [Section 8.5](https://inferentialthinking.com/chapters/08/5/Bike_Sharing_in_the_Bay_Area.html) in the textbook, with some modifications.  The original code in that section does not work (at least it does not work in the Google Colab environment), so you'll need to modify the code to make it work.  Along the way, you'll learn how to join tables, an extremely important data-handling skill.
